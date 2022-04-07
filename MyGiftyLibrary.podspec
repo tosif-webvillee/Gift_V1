@@ -25,8 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wv-abhishek' => 'mohdshadab.siddique@vectoscalar.com' }
-  s.source           = { :git => 'https://github.com/tosif-webvillee/Gift_V1.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source       = { :git => "https://github.com/myrepo/Podspecs.git", :branch => "master", :tag => s.version.to_s }  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
